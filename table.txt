@@ -1,0 +1,178 @@
+platDataDetail
+	这章表中的字段的只是凭英文名和本人的P2P从业经验进行的揣测
+	actualCapital:注册资本
+	aliasName:平台简称
+	association:是否加入互金协会 1表示加入 0表示未加入
+	associationDetail:加入历史记录
+	autoBid:是否支持自动投标
+	autoBidCode:是否支持自动投标代码
+	bankCapital:合作银行
+	banckFunds:是否与银行合作（一般来说是银行存管)
+	bidSecurity:保障方式
+	bindingFlag:未知字段
+	businessType:商业模式
+	companyName:公司全称
+	credit:未知（可能是信用评级)
+	creditLevel:未知（一般为空）
+	delayScore:未知
+	delayScoreDetai:未知（和上一字段相关)
+	displayFlag:显示与否
+	drawScore:显示得分
+	drawScoreDetail:未知 （和上一字段相关)
+	equityVolist:未知
+	experiencescore:体验得分
+	experienceScoreDetail:体验具体描述
+	fundCapital:银行存管
+	gjhhFlag:未知字段
+	gjhhFlagTime:未知字段
+	guaratee：担保机构
+	inspection:未知字段
+	juriadicalPerson:法人
+	locationArea；省份代码
+	localtionAreaName:省份
+	localtionCity:城市代码
+	loacationCityName:城市名称
+	manageExpense:管理费
+	manageExpenseDetail:管理费详情(此字段应该是未使用多余字段)
+	newTruestCreditor：标的是否可转让
+	newTruestCreditorCode:标的是否可转让代码
+	officeAddress:办公地址
+	onlineDate：上线时间
+	payment:支付方式代码
+	paymode:支付方式
+	platBackground:平台背景代码
+	platBackgroundDetail:平台背景
+	platBackgroundDetailExpand:平台背景扩展
+	platBackgroundExpand:平台背景扩张代码
+	platEarnings 平台利率
+	platEarningsCode 平台利率代码
+	paltStatus 平台状态
+	platUrl 平台url
+	problem 是否出现问题代码
+	problemTime 出现问题时间
+	recordId ICP备案代码
+	registedCaptial 注册资本
+	riskCapital 准备金银行
+	riskFunds 是否准备金 
+	riskReseve 准备金 金额
+	riskContraol 准备金控制
+	securityModel 保证金模式
+	securityModelOther 风险保证金补充
+	serviceScore 服务打分
+	serviceScoreDetail 服务得分描述
+	startInvestAmount 起投资金
+	term 标的类型
+	terncodes 标的代码
+	termweight 未知
+	transferExpense 转让费
+	transferExpenseDetail 转让费详细
+	trustCatital 未知
+	trustCreditor 未知
+	trustCreditorMonth 未知
+	trustFUnds 未知
+	tzjPj 未知
+	vipExpense 会员费用
+	withTzj 未知
+	withdrawExpense 提现费用
+	platId 平台Id
+platData:
+	id 标识
+	amount 成交金额
+	avgBidMoney 平均借款金额
+	background 背景
+	bidderNum 投标者数量
+	borrowerNum 借款者数量
+	currentLeveageAmount 未知
+	dataStatus 数据状态
+	developZhishu 发展指数
+	incomeRate 收益率
+	loanPeriod 借款期限
+	netInflowOfThirth 第三方净流入
+	newbackground 上线时间
+	platId 平台id
+	platName 平台名称
+	regCapital 注册资本
+	status  状态
+	stayStillOfNextSixty 接下来六十天带坏
+	stayStillofTotal 总共待还
+	timeOperation 运行时长
+	top10DueInProportion 前十借款者待还比例
+	top10StayStillPropotion 前十投资者待收比例
+	totalLoanNum 总共借款笔数
+	wdzjPlatId 平台id
+	month 月份
+prblemPlat
+	id 标识
+	area 身份
+	firstLetter 首字母缩写
+	onlineTime 上线时间
+	peopleNumber 人数 （为空)
+	platId平台id
+	platName 平台名称
+	proTime 反生问题月份
+	problemTime 发生问题时间
+	regCapital 注册资本
+	status1 
+	status2
+	type 问题类型
+problemPlatDetail 
+	字段和PlatDataDetail 一样 
+
+剩余表全为时间序列  date 为时间  wdzjPlatId为平台ID
+
+platBorrwoerGrade 借款人级别
+	wanPerson 借款额万以内的借款人
+	shiwanPerson 借款额一万到十万的借款人
+	baiwanPerson 借款额十万到百万的借款人
+	qianwanPerson 借款额百万以上的借款人
+platFullTimeByPeriod 不同期限标的满标时间
+	day 日标满标时间
+	oneMonth 一月标满标时间
+	twoMonth 两月标满标时间
+	threeMonth 三至六月标满标时间
+	sixMonth 半年及以上标满标时间
+platINcomeRate 收益率
+	incomeRate 收益率
+platINcomeRateByPeriod 不同期限标的收益率
+	day  日标收益率
+	OneMonth 月标收益率
+	twoMonth 两月标收益率
+	threeMonth 三月至六月标收益率
+	sixMonth 六月及以上标的收益率
+platInflowVSToPay 每日净流出流出及待还
+	inflow 流入流出
+	toPay 总待还
+	toPay30day 30日待还
+platInvetorGrade 投资人级别
+	与platBrrowerGrade借款人级别类似
+platINveMeanVSBorMena 平均投资额 与平均借款额 对比
+	invMean 平均投资额
+	borMean 平均借款额
+platInvNumVsBorNum
+	invNum 投资笔数
+	borNum 借款笔数
+platLoanNumVsLoanPeriod 借款笔数和借款期限
+	loanNum 借款笔数
+	loanPeriod 借款期限
+platNewNumVsOldNum 新投资人投资笔数和旧投资人投资笔数
+	newNum 新投资人投资笔数
+	olbNum 旧投资人投资笔数
+platNewSumVsOldSUm 新投资人投资总额和旧投资人投资总额
+	newSum 新投资人投资总额 
+	oldSUm 就投资人投资总额
+platMeanPeriodVsAllMenaPeriod 平台标的平均期限 与 所有平台标的平均期限对比
+	platMeanPeriod  平台标的平均期限 
+	allMeanPeriod 所有平台标的平均期限 
+
+platToPay10VsToReceive10 平台待还前十 与 待收前十对比
+	toPay10 借款者待付前十位待付总额 占所有待付比例
+	toReceive10 投资者待收前十待收额占所有投资额比例
+platToPay50VSToReCeive50:平台待还前五十 与 待收前五十对比
+	toPay50 借款者待付前五十位待付总额 占所有待付比例
+	toReceive50 投资者待收前五十待收额占所有投资额比例
+platToPayNumVsToReceiveNum 平台待付笔数与待收笔数对比
+	toPayNum 平台待付笔数
+	toRecieveNum 平台待收笔数
+platVolume 平台成交额
+	amount 平台成交额
+weixinIndex 前十平台微信指数
