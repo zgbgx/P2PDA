@@ -8,4 +8,5 @@ use the data scrapied from a third-party website to analyse chinese P2P industry
 推荐使用python3，因为fbprophet等库不支持python2.<br>
 海致BDP分析得到的只有图片的图表。<br>
 数据量较大，运行python代码可能对系统内存有一定要求。<br>
-本人做接触数据分析不久。所做数据分析都比较浅，希望有能力的能分享关于这些数据更有用，更细致，更深入的分析。
+本人做接触数据分析不久。所做数据分析都比较浅。<br>
+jupyter notebook 代码 保存在 P2P.ipynb ,如若未安装jupyter notebook  可直接 看P2P.html 查看 代码输出结构。
