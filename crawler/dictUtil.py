@@ -2,7 +2,7 @@
 '''
 Created on 2017年6月24日
 处理json对象工具类
-@author: sunyi
+@author: 
 '''
 import json
 import sys

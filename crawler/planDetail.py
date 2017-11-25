@@ -2,7 +2,7 @@
 '''
 Created on 2017年6月24日
 爬去债权详情
-@author: sunyi
+@author: 
 '''
 from sessionUtil import SessionUtil
 from htmlUtil import HtmlUtil

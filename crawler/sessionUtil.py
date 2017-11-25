@@ -2,7 +2,7 @@
 '''
 Created on 2017年6月24日
 session 工具类
-@author: sunyi
+@author: 
 '''
 import requests
 class SessionUtil():

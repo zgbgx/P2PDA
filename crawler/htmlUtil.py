@@ -2,7 +2,7 @@
 '''
 Created on 2017年6月25日
 处理html格式返回
-@author: sunyi
+@author: 
 '''
 from bs4 import BeautifulSoup
 class HtmlUtil():

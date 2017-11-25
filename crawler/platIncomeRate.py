@@ -2,7 +2,7 @@
 '''
 Created on 2017年7月3日
 平台成交量指数
-@author: sunyi
+@author: 
 '''
 from databaseUtil import DatabaseUtil
 from sessionUtil import SessionUtil

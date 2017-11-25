@@ -2,7 +2,7 @@
 '''
 Created on 2017年6月26日
 日志类  用户记录爬虫过程中的关键id  以及异常 信息
-@author: sunyi
+@author: 
 '''
 import logging
 class LogUtil():

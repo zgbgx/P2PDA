@@ -2,7 +2,7 @@
 '''
 Created on 2017年6月24日
 mysql 链接工具类
-@author: sunyi
+@author: 
 '''
 import pymysql
 class DatabaseUtil():
