@@ -3,6 +3,7 @@ use the data scrapied from a third-party website to analyse chinese P2P industry
 ## 关于数据
 数据来源于第三方网站，存在数据不完整，数据缺失以及数据错误的状况.<br>
 表数量在二十张左右，表结构存储在 table.txt中.具体字段含义存在很多不明确。
+![image](https://github.com/zgbgx/P2PDA/blob/master/3.png)<br>
 ## 数据分析
 数据分析使用python配合海致BDP完成，python 用到库主要有 numpy，matplotlib,pandas,sklearn,fbprophet,tushare.<br>
 推荐使用python3，因为fbprophet等库不支持python2.<br>
@@ -10,3 +11,4 @@ use the data scrapied from a third-party website to analyse chinese P2P industry
 数据量较大，运行python代码可能对系统内存有一定要求。<br>
 本人做接触数据分析不久。所做数据分析都比较浅。<br>
 jupyter notebook 代码 保存在 P2P.ipynb ,如若未安装jupyter notebook  可直接 看P2P.html 查看 代码输出结构。
+![image](https://github.com/zgbgx/P2PDA/blob/master/2.png)<br>
