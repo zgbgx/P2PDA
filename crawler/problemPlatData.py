@@ -1,7 +1,7 @@
 #coding=utf-8
 '''
 Created on 2017年6月24日
-人人贷债权列表爬虫  json格式返回
+网贷之家问题列表
 @author: 
 '''
 import json
