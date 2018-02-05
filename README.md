@@ -246,12 +246,6 @@ m.plot(forecast)
 ## 数据分析代码
 [数据分析代码地址](https://github.com/zgbgx/P2PDA/blob/master/P2P.ipynb)(注：数据分析代码智能运行在Python3 环境下）
 [代码运行后样例](https://raw.githubusercontent.com/zgbgx/P2PDA/master/P2P.html)(无需安装Python环境 也可查看具体代码解图形化展示)
-# 后记
-这是本人从 Java web转向数据方向后自己写的第一项目，也是自己的第一个Python项目，在整个过程中，也没遇到多少坑，整体来说，爬虫和数据分析以及Python这门语言门槛都是非常低的。
-如果想入门Python爬虫，推荐《Python网络数据采集》
-![s29086659.jpg](https://user-gold-cdn.xitu.io/2018/1/23/161235601dca61b5?w=318&h=417&f=jpeg&s=25423)
-如果想入门Python数据分析，推荐 《利用Python进行数据分析》
-![30adcbef76094b360e72e763a9cc7cd98c109d58.jpg](https://user-gold-cdn.xitu.io/2018/1/23/16123560054f06d2?w=400&h=548&f=jpeg&s=42208)
 
 
 
